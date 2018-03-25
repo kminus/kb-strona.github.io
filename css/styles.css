@@ -608,6 +608,7 @@ i:active {
   color: white;
   text-align: center;
   font-size: 20px;
+  position: relative;
 }
 
 .footer-container {
