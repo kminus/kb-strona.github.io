@@ -350,6 +350,7 @@ i:active {
   min-width: 200px;
   color: white;
   overflow: hidden;
+  border-bottom: 1px solid #00547D;
 }
 
 .opacity {
