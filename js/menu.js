@@ -26,26 +26,6 @@
 
 // sticky nav ------------------------------------------------------
 
-        var navY = $('.main-header').offset().top;
-    
-        var stickyNav = function() {
-            
-            var scrollY = $(window).scrollTop();
-            
-            if (scrollY > navY) {
-                $('.main-header').addClass('sticky')
-            } 
-            else {
-                $('.main-header').removeClass('sticky')
-            }
-
-        }
-
-        stickyNav();
-        $(window).scroll(function() {
-            stickyNav();
-        })
-
 //-----------------------------------------------------------------
 
     });
