@@ -1,4 +1,4 @@
-.main-navigation, .page-main, .article-header h2, .image-section, .about-us-section, .news-article, .section-news, .realizations-div .img-container, .realizations-div .img-container img, .employees-article, .section-employees, .employees-container2, .employees-unlock, .publications-article, .contact-container, .map img {
+.main-navigation, .page-main, .article-header h2, .image-section, .about-us-section, .news-article, .section-news, .realizations-div .img-container, .realizations-div .img-container img, .employees-article, .section-employees, .employees-container2, .employees-unlock, .publications-article, .section-publications, .contact-container, .map img {
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -320,9 +320,10 @@ i:active {
 }
 
 .news-article {
+  width: 100%;
   background-color: #034A66;
   padding: 40px 0 100px 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 .section-news {
@@ -824,12 +825,10 @@ i:active {
   .about-us-img {
     display: unset;
   }
-  .news-article {
-    width: 90%;
-  }
   .section-news {
     padding: 10px 40px;
     padding-bottom: 60px;
+    width: 90%;
   }
   .news-div {
     min-width: 200px;
