@@ -1,4 +1,4 @@
-.main-navigation, .page-main, .article-header h2, .image-section, .about-us-section, .news-article, .section-news, .realizations-div .img-container, .realizations-div .img-container img, .employees-article, .section-employees, .employees-container2, .employees-unlock, .publications-article, .section-publications, .contact-container, .map img {
+.main-navigation, .page-main, .article-header h2, .image-section, .about-us-section, .news-article, .section-news, .realizations-container, .realizations-div .img-container, .realizations-div .img-container img, .employees-article, .section-employees, .employees-container2, .employees-unlock, .publications-article, .section-publications, .contact-container, .map img {
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -494,7 +494,7 @@ i:active {
 }
 
 .employees-container {
-  height: 500px;
+  height: 700px;
   overflow: hidden;
 }
 
@@ -502,7 +502,7 @@ i:active {
   max-width: 1300px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px 15px;
+  padding: 0 15px;
   padding-bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -852,7 +852,7 @@ i:active {
     width: 90%;
   }
   .section-employees {
-    padding: 30px 40px;
+    padding: 0 40px;
     padding-bottom: 0px;
   }
   .publications-article {
