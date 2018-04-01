@@ -1,30 +1,41 @@
-
 (function($) {
     
     $(document).ready(function() { 
 
 // button menu ------------------------------------------------------
 
-        var navMenu = $('.navigation-menu');
+        var navMenu = $('.navigation-menu'),
+            config = $('.config')
         
         $('.hamburger').click(function() {
 
 
-            if(navMenu.hasClass('navigation-menu-hidden')) {
-                navMenu.removeClass('navigation-menu-hidden');
+            if(navMenu.hasClass('hidden')) {
+                navMenu.removeClass('hidden');
             }  
 
         })
 
         $('.close').click(function() {
 
-            if(!(navMenu.hasClass('navigation-menu-hidden'))) {
-                navMenu.addClass('navigation-menu-hidden');
+            if(!(navMenu.hasClass('hidden'))) {
+                navMenu.addClass('hidden');
             }  
 
         })
 
-// sticky nav ------------------------------------------------------
+        $('#config').click(function() {
+
+            if(config.hasClass('hidden')) {
+                config.removeClass('hidden');
+            }  else {
+                config.addClass('hidden');
+            }
+
+        })
+
+
+// xxx ------------------------------------------------------
 
 //-----------------------------------------------------------------
 

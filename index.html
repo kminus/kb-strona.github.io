@@ -23,7 +23,7 @@
                     <img class="page-logo" src="images/logo.jpg" alt="logo">
                 </a>
                 <nav class="nav">
-                    <ul class="navigation-menu navigation-menu-hidden">
+                    <ul class="navigation-menu hidden">
                         <li><a href="#" title="O biurze">O biurze</a></li>
                         <li><a href="#" title="Aktualności">Aktualności</a></li>
                         <li><a href="#" title="Realizacje">Realizacje</a></li>
@@ -33,11 +33,18 @@
                         <button class="close"><img src="images/menu/close.png" alt="Zamknij"></button>
                     </ul>
                     <button class="hamburger"><img src="images/menu/hamburger.png" alt="Menu"></button>
+
                 </nav>
             </div>
-        </div>
+            
+            <div id="config">
+                <i class="icon-cog"></i>
+                <div class="config con1 hidden appearConf"><i class="icon-calculator"></i><div>Kalkulator</div></div>
+                <div class="config con2 hidden appearConf"><i class="icon-key"></i><div>Panel administratora</div></div>
+                <div class="config home hidden appearConf"><i class=" icon-up-dir"></i></div>
+            </div>
 
-        <div id="bg-image"></div>
+        </div>
 
     </header>
     
@@ -47,9 +54,9 @@
 
         <article class="image-article">
 
-            <section class="image-section">
+            <section class="image-section appear1">
 
-                <h1>KB-Projekty Konstrukcyjne</h1>
+                <h1 class=>KB-Projekty Konstrukcyjne</h1>
                 <div class="flex-container">
                     <p>Zaprojektowaliśmy już wiele obiektów poczynając od obiektów mieszkalnych, biurowych i budynków użyteczności publicznej, aż po konstrukcje obiektów sportowych, sakralnych, zabytkowych.</p>
                     <p> Wykonaliśmy szereg ekspertyz konstrukcyjnych oraz wydaliśmy wiele opinii na temat stanu technicznego obiektów, możliwości ich dalszego użytkowania, adaptacji, przebudowy i nadbudowy.</p>
@@ -62,23 +69,24 @@
 
 <!-- art2 -->
 
-<article class="about-us-article">
+        <article class="about-us-article">
 
-    <section class="about-us-section">
+            <section class="about-us-section revealOnScroll">
 
-        <h1>O nas</h1>
-        <div class="flex-container2">
-            <p>Nasze biuro specjalizuje się w realizowaniu zagadnień konstrukcyjno - budowlanych, wykonywaniu ekspertyz konstrukcyjnych oraz ocen stanu technicznego wszelkiego rodzaju obiektów budowlanych.</p>
-            <p> Zostało stworzone przez pracowników naukowych Politechniki Krakowskiej posiadających wieloletnie doświadczenie przy projektowaniu obiektów w Krakowie, Polsce i poza granicami naszego kraju.</p>
-            <p>Projektujemy wszelkiego rodzaju konstrukcje żelbetowe, drewniane, stalowe itp. W fazie projektowej wykonujemy projekty koncepcyjne, budowlane, wykonawcze wraz z dokumentacją techniczną.</p>
-        </div>
-        <div class="about-us-img">
-            <img src="images/about-us2.jpeg" alt="office">
-        </div>
+                <h1>O nas</h1>
+                <div class="flex-container2">
+                    <p>Nasze biuro specjalizuje się w realizowaniu zagadnień konstrukcyjno - budowlanych, wykonywaniu ekspertyz konstrukcyjnych oraz ocen stanu technicznego wszelkiego rodzaju obiektów budowlanych.</p>
+                    <p> Zostało stworzone przez pracowników naukowych Politechniki Krakowskiej posiadających wieloletnie doświadczenie przy projektowaniu obiektów w Krakowie, Polsce i poza granicami naszego kraju.</p>
+                    <p>Projektujemy wszelkiego rodzaju konstrukcje żelbetowe, drewniane, stalowe itp. W fazie projektowej wykonujemy projekty koncepcyjne, budowlane, wykonawcze wraz z dokumentacją techniczną.</p>
+                </div>
 
-    </section>
+                <div class="about-us-img">
+                    <img src="images/about-us2.jpeg" alt="office">
+                </div>
 
-</article>
+            </section>
+
+        </article>
 
         
 <!-- art 3 -->
@@ -89,7 +97,7 @@
                 <h2>Aktualności</h2>
             </header>
 
-            <section class="section-news">
+            <section class="section-news revealOnScroll">
 
                 <i class="icon-left-open"></i>
                 <div class="news-container">
@@ -138,7 +146,7 @@
             </header>
 
             <section class="section-realizations">
-                <div class="realizations-container">
+                <div class="realizations-container revealOnScroll">
                     <div class="realizations-div">
                         <div class="img-container">
                             <img src="images/realizacje/realiz1.jpg" alt="szkieletor">
@@ -203,166 +211,164 @@
 
             </section>
             
-            <div class="unlock">
+            <div class="unlock realization-unlock">
                 <i class="icon-down-open"></i>
             </div>
 
         </article>
-
-<!-- art 5 -->
-
-<article class="employees-article">
-
-    <header class="article-header white">
-        <h2>Pracownicy</h2>
-    </header>
-
-    
-    <section class="section-employees">
-        <div class="employees-container">
-
-            <div class="employees-container2 boss">
-                <h3>Zarząd</h3>
-                <div class="employees-div">
-                    <img src="images/employees/dr.jpg" alt="szkieletor">
-                    <p>dr inż. Stanisław Karczmarczyk <br>
-                    Prezes - współwłaściciel <br>
-                    Rzeczoznawca</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/wb.jpg" alt="szkieletor">
-                    <p>dr inż. Wiesław Bereza <br>
-                    Współwłaściciel <br>
-                    Rzeczoznawca</p>
-                </div>
-            </div>
-            <div class="employees-container2 administration">
-                <h3>administracja</h3>
-                <div class="employees-div">
-                    <img src="images/employees/ania.jpg" alt="szkieletor">
-                    <p>mgr Anna Kasperkiewicz <br>
-                    Kierownik działu administracji</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/iza.jpg" alt="szkieletor">
-                    <p>mgr Izabela Bereza <br>
-                    Manager	</p>
-                </div>
-            </div>
-            <div class="employees-container2">
-                <h3>Pracownicy</h3>
-                <div class="employees-div">
-                    <img src="images/employees/Mirek zbirek.jpg" alt="szkieletor">
-                    <p>mgr inż. Mirosław Bielecki <br>
-                    Uprawniony projektant</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/angelika.jpg" alt="szkieletor">
-                    <p>mgr inż. Angelika Tałach <br>
-                    Uprawniony projektant</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/erika.jpg" alt="szkieletor">
-                    <p>mgr inż. Erika Šefčić <br>
-                    Uprawniony projektant</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/natalia.jpg" alt="szkieletor">
-                    <p>mgr inż. Natalia Grzywna <br>
-                    Uprawniony projektant</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/pawels.jpg" alt="szkieletor">
-                    <p>inż. Paweł Stężowski <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/staszek.jpg" alt="szkieletor">
-                    <p>mgr inż. Stanisław Czernik <br>
-                    Uprawniony projektant</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/Wojtek.jpg" alt="szkieletor">
-                    <p>mgr inż. Wojciech Metych <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/dominik.jpg" alt="szkieletor">
-                    <p>mgr inż. Dominik Karaś <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/lukasz.jpg" alt="szkieletor">
-                    <p>mgr inż. Łukasz Bubula <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/Tomo2.jpg" alt="szkieletor">
-                    <p>mgr inż. Tomasz Skowronek <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/waldemar.jpg" alt="szkieletor">
-                    <p>mgr inż. Waldemar Maryjka <br>
-                    Projektant - asystent</p>
-                </div>
-                <div class="employees-div">
-                    <img src="images/employees/marcin (2).jpg" alt="szkieletor">
-                    <p>mgr inż. Marcin Grądalski <br>
-                    Projektant - asystent</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    
-    <div class="unlock employees-unlock">
-        <i class="icon-down-open employees-unlock"></i>
-    </div>
-
-</article>
         
- <!-- art 6 -->
+        <!-- art 5 -->
+        
+        <article class="publications-article">
+    
+            <header class="article-header">
+                <h2>Publikacje</h2>
+            </header>
+    
+            <section class="section-publications revealOnScroll">
+                
+                <i class="icon-left-open"></i>
+                <div class="publications-container">
+                    <div class="publications-div">
+                        <p>Stany awaryjne zabytkowego budynku w ocenie architekta – inżyniera i potencjalne zagrożenia oraz problemy ochrony konserwatorskiej autorstwa dr inż. Stanisława Karczmarczyka XV Europejskiego Kongresu Informacji Renowacyjnej (EKIR 2016).Stany awaryjne zabytkowego budynku w ocenie architekta – inżyniera i potencjalne zagrożenia oraz problemy ochrony konserwatorskiej autorstwa dr inż. Stanisława Karczmarczyka XV Europejskiego Kongresu Informacji Renowacyjnej (EKIR 2016).</p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                    <div class="publications-div">
+                        <p>Nr 3 (707) 2001 - Biuletyn Urzędu Patentowego (Dział G - Fizyka)</p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                    <div class="publications-div">
+                        <p>Projektować od nowa czy wprowadzać zmiany Stanisław Karczmarczyk, Wiesław Bereza - Biuletyn Małopolskiej Okręgowej Izby Inżynierów Budownictwa (sierpień - wrzesień 2010)</p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                    <div class="publications-div">
+                        <p>Numerical simulation of local instabilities of membranes reinforced with cables Marek Stanuszek, Wiesław Bereza - 9th International Conference 'Shell Structures, Theory and Applications' (9th SSTA 2009), Jurata, Poland (2009)</p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                    <div class="publications-div">
+                        <p>Numerical modelling od tension system with unilateral constrains Marek Stanuszek, Wiesław Bereza - 8th. World Congress on Computational Mechanics, 5th. European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2008) </p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                    <div class="publications-div">
+                        <p>Zastosowanie odciążających płyt dennych w obiektach istniejących Wiesław Bereza - VII Międzynarodowa konferencja naukowo - techniczna Problemy Projektowe w Kontekście Nowych Technologii Budowlanych, Kraków, Polska (2007)</p>
+                        <i class="demo-icon icon-download-alt"></i>
+                    </div>
+                </div>
+                <i class="icon-right-open"></i>
+    
+        </article>
 
- <article class="publications-article">
+<!-- art 6 -->
 
-        <header class="article-header white">
-            <h2>Publikacje</h2>
-        </header>
+        <article class="employees-article">
 
-        <section class="section-publications">
+            <header class="article-header white">
+                <h2>Pracownicy</h2>
+            </header>
+
             
-            <i class="icon-left-open"></i>
-            <div class="publications-container">
-                <div class="publications-div">
-                    <p>Stany awaryjne zabytkowego budynku w ocenie architekta – inżyniera i potencjalne zagrożenia oraz problemy ochrony konserwatorskiej autorstwa dr inż. Stanisława Karczmarczyka XV Europejskiego Kongresu Informacji Renowacyjnej (EKIR 2016).Stany awaryjne zabytkowego budynku w ocenie architekta – inżyniera i potencjalne zagrożenia oraz problemy ochrony konserwatorskiej autorstwa dr inż. Stanisława Karczmarczyka XV Europejskiego Kongresu Informacji Renowacyjnej (EKIR 2016).</p>
-                    <i class="demo-icon icon-download-alt"></i>
+            <section class="section-employees">
+                <div class="employees-container">
+
+                    <div class="boss-container revealOnScroll">
+                        <h3>Zarząd</h3>
+                        <div class="boss-div">
+                            <img src="images/employees/dr.jpg" alt="szkieletor">
+                            <p>dr inż. Stanisław Karczmarczyk <br>
+                            Prezes - współwłaściciel <br>
+                            Rzeczoznawca</p>
+                        </div>
+                        <div class="boss-div">
+                            <img src="images/employees/wb.jpg" alt="szkieletor">
+                            <p>dr inż. Wiesław Bereza <br>
+                            Współwłaściciel <br>
+                            Rzeczoznawca</p>
+                        </div>
+                    </div>          
+                    
+                    <div class="employees-container2 revealOnScroll">
+                        <h3>Pracownicy</h3>
+                        
+                        <div class="employees-div">
+                            <img src="images/employees/ania.jpg" alt="szkieletor">
+                            <p>mgr Anna Kasperkiewicz <br>
+                            Kierownik działu administracji</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/iza.jpg" alt="szkieletor">
+                            <p>mgr Izabela Bereza <br>
+                            Manager	</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/Mirek zbirek.jpg" alt="szkieletor">
+                            <p>mgr inż. Mirosław Bielecki <br>
+                            Uprawniony projektant</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/angelika.jpg" alt="szkieletor">
+                            <p>mgr inż. Angelika Tałach <br>
+                            Uprawniony projektant</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/erika.jpg" alt="szkieletor">
+                            <p>mgr inż. Erika Šefčić <br>
+                            Uprawniony projektant</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/natalia.jpg" alt="szkieletor">
+                            <p>mgr inż. Natalia Grzywna <br>
+                            Uprawniony projektant</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/pawels.jpg" alt="szkieletor">
+                            <p>inż. Paweł Stężowski <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/staszek.jpg" alt="szkieletor">
+                            <p>mgr inż. Stanisław Czernik <br>
+                            Uprawniony projektant</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/Wojtek.jpg" alt="szkieletor">
+                            <p>mgr inż. Wojciech Metych <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/dominik.jpg" alt="szkieletor">
+                            <p>mgr inż. Dominik Karaś <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/lukasz.jpg" alt="szkieletor">
+                            <p>mgr inż. Łukasz Bubula <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/Tomo2.jpg" alt="szkieletor">
+                            <p>mgr inż. Tomasz Skowronek <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/waldemar.jpg" alt="szkieletor">
+                            <p>mgr inż. Waldemar Maryjka <br>
+                            Projektant - asystent</p>
+                        </div>
+                        <div class="employees-div">
+                            <img src="images/employees/marcin (2).jpg" alt="szkieletor">
+                            <p>mgr inż. Marcin Grądalski <br>
+                            Projektant - asystent</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="publications-div">
-                    <p>Nr 3 (707) 2001 - Biuletyn Urzędu Patentowego (Dział G - Fizyka)</p>
-                    <i class="demo-icon icon-download-alt"></i>
-                </div>
-                <div class="publications-div">
-                    <p>Projektować od nowa czy wprowadzać zmiany Stanisław Karczmarczyk, Wiesław Bereza - Biuletyn Małopolskiej Okręgowej Izby Inżynierów Budownictwa (sierpień - wrzesień 2010)</p>
-                    <i class="demo-icon icon-download-alt"></i>
-                </div>
-                <div class="publications-div">
-                    <p>Numerical simulation of local instabilities of membranes reinforced with cables Marek Stanuszek, Wiesław Bereza - 9th International Conference 'Shell Structures, Theory and Applications' (9th SSTA 2009), Jurata, Poland (2009)</p>
-                    <i class="demo-icon icon-download-alt"></i>
-                </div>
-                <div class="publications-div">
-                    <p>Numerical modelling od tension system with unilateral constrains Marek Stanuszek, Wiesław Bereza - 8th. World Congress on Computational Mechanics, 5th. European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2008) </p>
-                    <i class="demo-icon icon-download-alt"></i>
-                </div>
-                <div class="publications-div">
-                    <p>Zastosowanie odciążających płyt dennych w obiektach istniejących Wiesław Bereza - VII Międzynarodowa konferencja naukowo - techniczna Problemy Projektowe w Kontekście Nowych Technologii Budowlanych, Kraków, Polska (2007)</p>
-                    <i class="demo-icon icon-download-alt"></i>
-                </div>
+            </section>
+            
+            <div class="unlock employees-unlock">
+                <i class="icon-down-open employees-unlock"></i>
             </div>
-            <i class="icon-right-open"></i>
 
-    </article>
-
+        </article>
         
     </main>
 
@@ -374,7 +380,7 @@
                 <h2>Kontakt</h2>
             </header>
 
-            <div class="contact-container">
+            <div class="contact-container revealOnScroll">
                 <div class="contact-div">
                     <i class="icon-group"></i>
                     <p>KB - PROJEKTY KONSTRUKCYJNE</p>
@@ -403,7 +409,7 @@
         
             </div>
 
-            <div class="map"><img src="images/menu/mapa.PNG" alt="mapa"></div>
+            <div id="map"></div>
 
             <nav class="footer-nav">
                     <ul class="footer-menu">
@@ -433,8 +439,12 @@
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/menu.js"></script>
-
-
+    <script src="js/reveal.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8y7QntR_qJ_fBSjY1_t8X3L2bpei8Kok&callback=initMap">
+    </script>
+    <script src="js/gmap.js"></script>
+    
 
 </body>
 
