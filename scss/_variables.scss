@@ -1,0 +1,59 @@
+//colors
+$myWhite: rgb(230, 230, 230);
+$mainColor: $myWhite;
+$KBcolor: #034A66;
+$borderOnKB: #00547D;
+$hoverColor: #037D7D;
+
+//page options
+$maxWebWidth: 1300px;
+
+$pageWidth-mobile: 95%;
+$pageWidth-normal: 90%;
+
+$spaceLog-Artic-mobile: 80px;
+$spaceLog-Artic-normal: 160px;
+
+
+%center {
+    margin-left: auto !important;
+    margin-right: auto !important; 
+}
+
+%noMargin {
+    margin: 0;
+    padding: 0;
+}
+
+%centerDiv {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+//--------------header---------------------
+
+//logo
+$pageLogoSize-mobile: 90px;
+$pageLogoSize-normal: 90px;
+$pageLogoPadding: 0px;
+$pageLogoHorizPadd: 20px;
+
+//hamburger
+$hamburgerSize: 40px;
+
+//bg Image
+$bgImageHeight: 300px;
+
+//-----------------------------------------
+
+//--------------article---------------------
+//view
+$articlePaddingHor-mobile: 15px;
+$articlePaddingHor-normal: 40px;
+
+$articlePaddingVer-mobile: 20px;
+$articlePaddingVer-normal: 30px;
+
+
+//-----------------------------------------
