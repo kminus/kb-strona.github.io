@@ -1,19 +1,16 @@
 (function($) {
     
     $(document).ready(function() {
-
+        
         //popup
 
-        $('.popup-bg').hide();
-        $('.popup-bg').addClass('popup-opacity');
-
         $('.realizations-div').click(function() {
-            $('.popup-bg').fadeIn(500);
+            $('.popup-bg').addClass('popup-visibility');
         });
 
         $('.popup-close').click(function() {
-            $('.popup-bg').fadeOut(500);
-        });
+            $('.popup-bg').removeClass('popup-visibility');
+        }); 
 
         //slider
 

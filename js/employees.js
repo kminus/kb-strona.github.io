@@ -2,6 +2,8 @@
     
     $(document).ready(function() {
 
+        //unlock
+
         $('.employees-article .unlock').click(function() {
 
             $('.employees-container').toggleClass('employees-container-open');
@@ -12,6 +14,8 @@
                 $('.employees-article .unlock i').css({'transform' : 'rotate(0deg)', 'transition' : 'transform 0.2s ease'})
             }
         });
+
+        //ribbon
 
         $('.employees-div').hover(function(e) {
             var $this = $(this),
